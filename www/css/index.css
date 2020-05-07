@@ -1,0 +1,21 @@
+body {
+    height: 95vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica Neue;
+}
+
+.status {
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.instructions {
+    opacity: 0.6;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}

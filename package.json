@@ -1,0 +1,33 @@
+{
+  "name": "me.pushy.demo",
+  "displayName": "Pushy Demo",
+  "version": "1.0.0",
+  "description": "A demo of the Pushy SDK integrated into a sample Cordova app.",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Pushy <support@pushy.me>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-navigationbar-fix": "^1.1.1",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "pushy-cordova": "^1.0.34",
+    "pushy-cordova-receiver": "file:plugins/pushy-cordova/receiver"
+  },
+  "cordova": {
+    "plugins": {
+      "pushy-cordova": {},
+      "pushy-cordova-receiver": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-navigationbar-fix": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
