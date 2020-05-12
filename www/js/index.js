@@ -70,9 +70,9 @@ var app = {
     navBar: function () {
         // Setup iOS navigation bar style
         NavigationBar.style({
-            style: 'BlackOpaque',
+            style: 'Default',
             translucent: false,
-            background: '#00222222',
+            background: '#252524FF',
             height: 60.0
         });
 
