@@ -15,7 +15,7 @@
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-navigationbar-fix": "^1.1.2",
     "cordova-plugin-statusbar": "^2.4.3",
-    "pushy-cordova": "^1.0.34",
+    "pushy-cordova": "^1.0.39",
     "pushy-cordova-receiver": "file:plugins/pushy-cordova/receiver"
   },
   "cordova": {
