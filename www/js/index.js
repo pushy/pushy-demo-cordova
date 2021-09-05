@@ -5,9 +5,6 @@ var app = {
     },
     // 'deviceready' event
     onDeviceReady: function () {
-        // Set up navigation bar for iOS
-        window.cordova.platformId === 'ios' && this.navBar();
-
         // <p> textual elements
         var status = document.querySelector('.status');
         var instructions = document.querySelector('.instructions');
@@ -63,26 +60,6 @@ var app = {
             // Navigate the user to another page or 
             // execute other logic on notification click
         });
-    },
-    navBar: function () {
-        // Setup iOS navigation bar style
-        NavigationBar.style({
-            style: 'Default',
-            translucent: false,
-            background: '#252524FF',
-            height: 60.0
-        });
-
-        // Add title to navigation bar
-        NavigationBar.title({
-            title: 'Pushy',
-            color: '#FFFFFFFF',
-            font: 'Helvetica Neue',
-            size: 18
-        });
-
-        // All done
-        NavigationBar.show();
     }
 };
 

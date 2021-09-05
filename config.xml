@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 
 <widget id="me.pushy.example" ios-CFBundleIdentifier="me.pushy.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Pushy</name>
+    <name>PushyDemo</name>
     <description>A demo of the Pushy SDK integrated into a sample Cordova app.</description>
     <author email="support@pushy.me" href="https://pushy.me">Pushy</author>
 
@@ -9,8 +9,7 @@
 
     <preference name="ShowTitle" value="true" />
     <preference name="Orientation" value="portrait" />
-    <preference name="StatusBarStyle" value="lightcontent" />
-    
+
     <platform name="android">
         <icon src="assets/mipmap-mdpi/ic_launcher.png" density="mdpi" />
         <icon src="assets/mipmap-xhdpi/ic_launcher.png" density="xhdpi" />
@@ -23,6 +22,10 @@
     </platform>
     
     <platform name="ios">
+        <config-file parent="UIUserInterfaceStyle" platform="ios" target="*-Info.plist">
+            <string>Light</string>
+        </config-file>
+
         <icon src="assets/ios/Icon-App-20x20@1x.png" width="20" height="20" />
         <icon src="assets/ios/Icon-App-20x20@2x.png" width="40" height="40" />
         <icon src="assets/ios/Icon-App-20x20@3x.png" width="60" height="60" />
