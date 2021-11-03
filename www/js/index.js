@@ -15,6 +15,9 @@ var app = {
         // Set custom notification icon (Android)
         Pushy.setNotificationIcon('ic_notify');
 
+        // Enable in-app notification banners (iOS 10+)
+        Pushy.toggleInAppBanner(true);
+
         // Register the device for push notifications
         Pushy.register(function (err, deviceToken) {
             // Handle registration errors
