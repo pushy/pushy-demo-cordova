@@ -1,6 +1,6 @@
 # pushy-demo-cordova
 
-A demo of the [Pushy SDK for Cordova](https://github.com/pushy-me/pushy-cordova) integrated into a sample Cordova app.
+A demo of the [Pushy SDK for Cordova](https://github.com/pushy/pushy-cordova) integrated into a sample Cordova app.
 
 > [Pushy](https://pushy.me/) is the most reliable push notification gateway, perfect for real-time, mission-critical applications.
 
@@ -20,7 +20,7 @@ Visit our documentation to [integrate Pushy into your existing Cordova app](http
 
 ## Get Started
 
-* Clone the repository locally: `git clone https://github.com/pushy-me/pushy-demo-cordova.git`
+* Clone the repository locally: `git clone https://github.com/pushy/pushy-demo-cordova.git`
 * Run `cd pushy-demo-cordova`
 * Run `cordova platform add ios && cordova platform add android` to add both Android & iOS platforms
 
