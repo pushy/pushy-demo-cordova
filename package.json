@@ -14,7 +14,7 @@
     "cordova-ios": "^5.1.1",
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-app-name": "1.0.7",
-    "pushy-cordova": "^1.0.45",
+    "pushy-cordova": "^1.0.58",
     "pushy-cordova-receiver": "file:plugins/pushy-cordova/receiver"
   },
   "devDependencies": {
