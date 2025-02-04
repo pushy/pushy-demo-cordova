@@ -10,15 +10,15 @@
   "author": "Pushy <support@pushy.me>",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-app-name": "1.0.7",
-    "pushy-cordova": "^1.0.58",
-    "pushy-cordova-receiver": "file:plugins/pushy-cordova/receiver"
+    "pushy-cordova": "^1.0.58"
   },
   "devDependencies": {
-    "cordova-plugin-whitelist": "^1.3.5"
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-whitelist": "^1.3.5",
+    "pushy-cordova-receiver": "file:plugins/pushy-cordova/receiver"
   },
   "cordova": {
     "plugins": {
