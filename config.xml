@@ -17,7 +17,7 @@
         <icon src="assets/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
 
         <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:label='@string/activity_name']" mode="merge">
-            <activity android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar"></activity>
+            <activity android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
         </edit-config>
     </platform>
     
